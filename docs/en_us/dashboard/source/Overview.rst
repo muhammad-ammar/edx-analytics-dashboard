@@ -4,9 +4,10 @@
 Overview
 #############
 
-The data on the edX Insights dashboard can help you validate choices
-that have already been made for a course, or cause you to re-evaluate those
-choices. The practical magic of interpreting changes in enrollment involves:
+The data on the edX Insights dashboard can help you validate the choices that
+you have made for a course and re-evaluate choices in an effort to improve
+your course and the experience of your learners. Putting the data provided by
+edX Insights to work involves:
 
 * Evaluating changes against your expectations.
 

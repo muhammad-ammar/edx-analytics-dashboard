@@ -40,10 +40,10 @@ Practical Magic: Interpreting Geographic Distribution
 Now Open 'til Midnight
 =========================
 
-As their course launched, a course team realized that they had almost as many
-students enrolled from India as from their own country, the United States. To
-provide the same experience to students participating across time zones, the
-team adjusted their schedules to provide additional discussion
+As their course start date approached, a course team realized that they had
+almost as many students enrolled from India as from their own country, the
+United States. To provide the same experience to students participating across
+time zones, the team adjusted their schedules to provide additional discussion
 moderattion coverage.
 
 Another team that saw a similar geographic trend in course enrollments before
@@ -64,3 +64,19 @@ students who, based on location, could only access videos if they were hosted
 on a third-party site. When a predefined minimum had shown interest by
 enrolling, the team was able to justify the cost of creating an alternate video
 delivery channel.
+
+============================
+Fostering Community
+============================
+
+When students enroll in a course and click through from the edX dashboard, the
+LMS Course Info page is the first page that they see. One professor included
+enrollment data from previous runs of his course to welcome every student into
+the course community:
+
+"I'd like to share some important details with you about our community. Since
+its launch in March 2013, HeroesX has enrolled over 60,000 individuals from
+over 170 countries, and this third session is growing every day. ...HeroesX is
+special because it brings together individual participants working
+independently from all over the world".
+- Gregory Nagy, September 2, 2014

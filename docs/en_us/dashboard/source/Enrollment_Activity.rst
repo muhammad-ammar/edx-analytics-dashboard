@@ -9,10 +9,11 @@ monitor how many people are enrolling in your course and how that number
 changes over time. EdX Insights delivers enrollment activity data in these
 ways:
 
-* Graph: **Enrollment Activity** 
+* Chart: **Enrollment Activity** 
 
-  Each bar represents the enrollment total for each day. Move your cursor over
-  the graph to see a popup with the daily counts.
+  Each marker represents the total number of enrolled course participants on
+  that date. Move your cursor over the chart to see a tip with each daily
+  count.
 
 * Count: **Current Enrollment**
 
@@ -22,6 +23,8 @@ ways:
 
   To download the Enrollment Breakdown report in a comma-separated value
   file, click **Download CSV**.
+
+.. info on why you might want to download?
 
 See the :ref:`Reference` chapter for a detailed description of each value.
 
@@ -39,10 +42,14 @@ enrollments over time, as site visitors find a course, sign up for it, and tell
 their colleagues, friends, and family about it. This strategy also gives teams
 the opportunity to watch for changes in enrollment, temporary "spikes", after
 particular events, such as marketing campaigns for the course or for edX in
-general. Such events can be expected or unexpected: teams for all edX
-courses saw enrollments jump in July 2013 in the week after edX CEO Anant Agarwal was interviewed on a nationally broadcast talk show.
+general. 
 
-.. what is the actionable insight for this story? It's so great, I'd like to use it, but is there a way to make it showcase a decision or change?
+Such events can be expected or unexpected: teams for all edX courses saw
+enrollments jump in the summer of 2013, after edX CEO Anant Agarwal was
+interviewed on the July 24 edition of *The Colbert Report*, a satirical late-
+night comedy show hosted by Stephen Colbert. 
+
+.. what is the actionable insight for this story? It's so great, I'd like to use it, but is there a way to make it showcase a decision or change? Maybe use it to lead in to "the students you have aren't necessarily reflective of the students you *could* have"? (courtesy of John Hess)
 
 ===========================
 Latecomers Welcome
@@ -55,4 +62,3 @@ date. To give recently-enrolled students time to catch up, the team decided to
 adjust the course so that is was more self-paced: they made the due dates in
 unreleased units later and extended the course end date to keep course content
 open longer.
-

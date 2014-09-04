@@ -11,6 +11,10 @@ weekly: as of day of week time of day UTC
 
 Each day: count as of midnight UTC
 
+Computations for edX Insights and the the Instructor Dashboard on the LMS take place at different times. 
+
+numbers are computed at different times, and may not match exactly
+
 ***********
 Enrollment
 ***********
