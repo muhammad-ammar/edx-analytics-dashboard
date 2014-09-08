@@ -5,13 +5,13 @@ Overview
 #############
 
 The data on the edX Insights dashboard can help you validate the choices that
-you have made for a course and re-evaluate choices in an effort to improve
-your course and the experience of your learners. Putting the data provided by
-edX Insights to work involves:
+you have made for a course. It can also help you re-evaluate choices in an
+effort to improve your course and the experience of your learners. Putting the
+data provided by edX Insights to work involves:
 
-* Evaluating changes against your expectations.
+* Understanding the context of your course and what changes over time.
 
-* Understanding the context of the change.
+* Evaluating reported data against your expectations.
 
 * Deciding whether action is called for.
 
@@ -26,11 +26,13 @@ and reports that you access in edX Insights.
 
 * :ref:`Engagement_Content`
 
+.. eventually replace with refs to the lens-level chapters
+
 Each chapter also contains a section for anecdotal "practical magic". These
 sections showcase how data has revealed information about courses and students,
 and how course teams have reacted to the information.
 
-On the edX Insights dashboard, each reported value has a brief description that
-you access by moving your cursor over the "Information" icon. The
+The edX Insights dashboard includes a brief description for each reported value
+that you access by moving your cursor over the "Information" icon. The
 :ref:`Reference` chapter in this guide dives deeper to provide detailed
 descriptions of how edX computes reported values.

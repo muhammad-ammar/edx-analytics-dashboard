@@ -6,29 +6,41 @@ Enrollment Geography
 
 Where are my students from? For a MOOC, enrollment geography data helps you
 understand the global reach of your course. EdX Insights delivers enrollment
-data for each country in the world in these ways:
+data in these ways:
 
 * Map: **Geographic Distribution** 
 
-  The map uses a color scale to indicate the percentage of total enrollment 
-  represented by enrollments from each country. The darker the shade,
-  the higher the enrollment percentage. You can view the enrollment total for
-  each country: click the area on the map.
+  The map uses a color scale to indicate the percentage of total enrollment
+  represented by students from each country. The darker the shade, the higher
+  the enrollment percentage. You can view the enrollment total for each
+  country: move your mouse over the map.
 
 * Count: **Total Countries Represented**
+  
+  This metric reports the number of countries in which one or more enrolled
+  students are located.
 
 * Percentage: **Most Prevalent Country** 
+  
+  This statistic indicates the country with the highest percentage of enrolled
+  students.
 
 * Percentage: **2nd Most Prevalent Country** 
 
+  This statistic indicates the country with the second highest percentage of
+  enrolled students.
+
 * Percentage: **3rd Most Prevalent Country** 
 
-* Report: **TBD** 
+  This statistic indicates the coutnry with the highest percentage of enrolled
+  students.
+
+* Report: **Country Enrollment Breakdown** 
 
 .. the downloadable report will have country/total/percentage 
 
-  To download the %%name report in a comma-separated value file, click
-  **Download CSV**.
+  To download the Country Enrollment Breakdown report in a comma-separated
+  value file, click **Download CSV**.
 
 See the :ref:`Reference` chapter for a detailed description of each value.
 
@@ -71,12 +83,8 @@ Fostering Community
 
 When students enroll in a course and click through from the edX dashboard, the
 LMS Course Info page is the first page that they see. One professor included
-enrollment data from previous runs of his course to welcome every student into
-the course community:
+enrollment data from previous iterations of his course to welcome students into
+the course community. Showcasing the size and geograhic reach of the course can
+help capture the interest of new students and escalate enthusiasm.
 
-"I'd like to share some important details with you about our community. Since
-its launch in March 2013, HeroesX has enrolled over 60,000 individuals from
-over 170 countries, and this third session is growing every day. ...HeroesX is
-special because it brings together individual participants working
-independently from all over the world".
-- Gregory Nagy, September 2, 2014
+.. "I'd like to share some important details with you about our community. Since its launch in March 2013, HeroesX has enrolled over 60,000 individuals from over 170 countries, and this third session is growing every day. ...HeroesX is special because it brings together individual participants working independently from all over the world". - Gregory Nagy, September 2, 2014 (hold off on specifically quoting per Michele)
