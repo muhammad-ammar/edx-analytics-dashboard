@@ -11,15 +11,12 @@ student engagement with the content of your course in these ways:
 
 * Graph: **TBD**
   
-  %%??
+  %%?? three lines
 
 * Count: **Active Students Last Week** 
   
   The total number of students who, at least once, visited a page in the
-  course, played a video, contributed to a discussion topic, or clicked
-  **Check** for a problem. 
-
-  %%% what else? "other course activities" in B&R guide 
+  course. 
 
 * Count: **Watched a Video Last Week** 
   
@@ -31,7 +28,7 @@ student engagement with the content of your course in these ways:
 
 * Report: **TBD** 
 
-.. the downloadable report will have ? a title and some columns
+.. the downloadable report will have ? a title and some columns for counts
 
   You can download the %% report in comma-separated value format: click
   **Download CSV**.
@@ -42,11 +39,14 @@ See the :ref:`Reference` chapter for a detailed description of each value.
 Practical Magic: Interpreting Data About Student Engagement 
 ****************************************************************
 
-Most MOOCs experience a significant drop in the number of students interacting
-with any aspect of the content after the first assignment is due. Instead of
-using the total enrollment count, many teams define a new baseline number for
-assessing student engagement after the first (or first several) problem sets
-are complete.
+Most online courses experience periodic drops in student engagement that can be
+closely correlated to specific events: problem due dates. Teams can forecast
+these changes in engagement, implement strategies to mitigate them, and use the
+weekly counts for engagement with course content to monitor their reach.
+
+Instead of comparing weekly student engagement counts to the total course
+enrollment, many teams define a new baseline for assessing student engagement
+after the first assignment is due.
 
 .. not sure where to put this ^ 
 
@@ -54,19 +54,18 @@ are complete.
 A Heartfelt Appeal
 ============================
 
-Most online courses experience periodic drops in student engagement that can be
-closely correlated to specific events: problem due dates. Teams can forecast
-these changes in engagement, implement strategies to mitigate them, and use the
-counts for engagement with course content to monitor their reach.
-
-One professor included an appeal to students to set expectations and encourage
-a minimum time commitment in the very first course component. In his video
+To set expectations and encourage a minimum time commitment, one professor
+included an appeal to students in the very first course component. In his video
 message he addressed students directly, saying, "When you see your first
 homework assignment, some of you may feel somewhat intimidated. That's
 normal... However, it would be the wrong thing to stop the course at this
-point. At least stay in for one month before you make that tragic decision."
+point. At least stay in for one month before you make that tragic decision." -
+Professor Walter Lewin, September 5, 2013
 
-- Professor Walter Lewin, September 5, 2013
+Professor Lewin followed this initial appeal with weekly video messages to
+encourage his students. Completion rates and certification rates for the course
+were higher than average, and in a course exit survey students indicated that
+the video messages had a significant motivating effect.
 
 ============================================
 Gauging the Effectiveness of Your Investment
@@ -79,3 +78,5 @@ delivered daily or even more frequently. Bulk email messages are usually sent
 less frequently, and have longer content. By comparing the levels of student
 engagement week over week, you can evaluate and compare the results of these
 efforts.
+
+.. Ana Bell?

@@ -4,81 +4,109 @@
 Computation Reference
 #######################
 
+This chapter provides detailed information about how the values presented by edX Insights are computed. It contains sections for:
 
+* :ref:`All Computations`
 
-* The data that is reported by EdX Insights is updated once a week. 
+* :ref:`Enrollment Computations`
 
-* Computations are made through %%day of week, 23:59 UTC (11:59 pm). 
+* :ref:`Engagement Computations`
 
-* Changes over time are computed from %%day of week, 00:00 UTC thorugh %%day of
-  week, 23:59 UTC. For example, the change in enrollment for a one week period
-  reports the difference between the enrollment total on %% day to the total on
-  %%day.
+.. _All Computations:
 
-* Computations for data reported by edX Insights and on the Instructor
-  Dashboard for a live course take place at different times, and as a result
-  may not match exactly.
+*********************************
+All Computations
+*********************************
+
+* The data reported by EdX Insights is updated once a week, typically on
+  Mondays.
+
+* Computations are made each week through Sunday at 23:59:59 UTC (11:59 pm). 
+
+* Changes over a one week period are computed from Monday at 00:00:00 UTC
+  through Sunday at 23:59:59 UTC.
+
+  For example, the one week change in enrollment reports the difference between
+  the enrollment total at the beginning of the week on Monday to the total at
+  the end of the week on Sunday.
+
+* Computations for edX Insights and for the Instructor Dashboard take place at
+  different times. As a result, they may not match exactly.
+
+.. _Enrollment Computations:
 
 *********************************
 Enrollment Computations
 *********************************
+
+EdX changed the method used to track student enrollments on 3 December 2013. As
+a result, enrollment activity data is not computed for courses created in
+Studio before 4 December 2013. (Enrollment geography data is available for
+those courses.)
 
 **Current Enrollment count**
 
 * Users are included as of the date and time they enroll in a course. 
 
 * All users who are enrolled in the course are included. This means that in
-    addition to students, all staff members and beta testers with privileged
-    roles in the course are included.
-    
+  addition to students, all staff members and beta testers with privileged
+  roles in the course are included.
+
 * Users who do not activate their accounts at registration are included. 
 
-* Users who unenroll from the course are not included in the count. (%%not clear
-  enough yet -- counted as enrolled until thaty unenroll, not retroactively
-  unenrolled)
+* Users who unenroll are excluded from the count as of the date and time they
+  unenroll.
     
-* Students who are bulk / automatically enrolled on the Instructor Dashboard are enrolled based on the check box --> immediately or after reacting to email
+* Course staff can enroll students from the **Membership** tab in the
+  Instructor Dashboard by supplying a list of email addresses or usernames.
+  Actual enrollments can occur on different dates, as follows.
 
-* before 12/3/2013, enrollment was not tracked rigorously and was garbage
-     for a course that had enrollments that traverse 12/3/2013, so we don't show a graph at all for such courses (we will at some poin tin the future back track to figure out how many were enrolled as of 12/3, but not for MVP)
-     geolocation data will be there, rest will not
+ * When **Auto Enroll** is cleared, each student identified by email address or
+   username must manually complete the enrollment process for the course. Users
+   are included as of the date and time they enroll.
 
+ * When **Auto Enroll** is selected, each student who already has a registered
+   user account with one of the supplied email addresses or usernames is
+   included as of the date and time the staff member clicks **Enroll**.
 
-**Enrollment Activity graph** or Daily Student Enrollment?
+   Each student who registers a user account with one of the batch enrolled
+   email addresses or usernames is included as of the date and time the user
+   account is registered.
+
+**Enrollment Activity graph** or is it Daily Student Enrollment?
   
-  * Each marker on the graph represents the number of registered users enrolled
-    in the course as of 23:59 UTC each day.
+* Each marker on the graph represents the number of users enrolled in the
+  course each day.
 
-  * The x-axis shows the time period from the course creation date until the
-    date of the last computation update.
+* The x-axis shows the period from course creation through the end of the last
+  computation period.
 
-  * The y-axis shows the number of enrollees.
-  
-**Enrollment Breakdown report**
-  
-  * Columns for Date and Total Enrollment
-
-  downloadable report should have the data that is graphed (daily)
-
-**Enrollments This Week delta**
-
-  * Compares the enrollment at the start of the last complete 7 day period to
-    the end of that period.
+* The y-axis shows the total number of enrolled users.
 
 **Geographic Distribution map**
+&&&%%%%%%%%%%%ahhhhhha!!!!%%%%
 
-  , expressed as a percentage of total enrollment. 
-
-  Student geographic location is determined by the IP address used when they registered a user account on the site. 
-
-
-
-Geolocation is computed by trawling through the activity logs for every event
-for every user and geolocate the IP address -- last known location regardless
+* The IP address saved with the last event that a user o determine the location of each user, the 
+  
+  When users interact with course content, events User location is determined from the most recently emitted event IP address trawling through the activity logs for every event
+for every user and geolocate the  -- last known location regardless
 of course!!! 
 
 Geolocation numbers and enrollment numbers are not going to match up as they are NOT computed in the same way.
 
+
+
+Location is determined from user IP addresses. Each time a user interacts with a course, the IP address is logged (with other identifying information) in a log of tracking  each time a user interacts with any course. he most recently recorded tracking event 
+
+an event is recorded in a tracking log. To determine location, the IP address  in the most recent event logged for each enrolled student is used. 
+
+this is not over time
+
+this is not 
+
+expressed as a count and as a percentage of total enrollment.
+
+Users with more than one activity on a given date, the IP address from the most recent one is used.
 
 **Total Countries Represented**
 
@@ -91,11 +119,32 @@ Geolocation numbers and enrollment numbers are not going to match up as they are
 
 
 
-
+.. _Engagement Computations:
 
 *********************************
 Engagement Computations
 *********************************
+
+
+Active Students Last Week
+
+any event for the user in the course loading a page,show answer, reading dicussion forum, reading static pages, textbooks, 
+
+attempted problem
+
+clicking check on ANY capa problem ** 
+(Alison - comment each one that Gabe determines to be a capa problem)
+Create a subtask/story for Gabe in REview Documentation story
+
+Watched a video: if they click the play on any video they are counted
+
+**unique users across the date range per metric. Activity even once counts, and only counts once 
+
+
+
+
+
+
 
 
 
