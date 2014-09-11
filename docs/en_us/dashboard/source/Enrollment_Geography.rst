@@ -82,7 +82,7 @@ Fostering Community
 ============================
 
 When students enroll in a course and click through from the edX dashboard, the
-LMS Course Info page is the first page that they see. One professor included
+Course Info page is the first page that they see. One professor included
 enrollment data from previous iterations of his course to welcome students into
 the course community. Showcasing the size and geograhic reach of the course can
 help capture the interest of new students and escalate enthusiasm.

@@ -37,7 +37,7 @@ See the :ref:`Reference` chapter for a detailed description of each value.
 
 ***************************************************************
 Practical Magic: Interpreting Data About Student Engagement 
-****************************************************************
+***************************************************************
 
 Most online courses experience periodic drops in student engagement that can be
 closely correlated to specific events: problem due dates. Teams can forecast
@@ -50,22 +50,19 @@ after the first assignment is due.
 
 .. not sure where to put this ^ 
 
-============================
-A Heartfelt Appeal
-============================
+==================================================
+An Initial Appeal and Ongoing Encouragement
+==================================================
 
 To set expectations and encourage a minimum time commitment, one professor
-included an appeal to students in the very first course component. In his video
-message he addressed students directly, saying, "When you see your first
-homework assignment, some of you may feel somewhat intimidated. That's
-normal... However, it would be the wrong thing to stop the course at this
-point. At least stay in for one month before you make that tragic decision." -
-Professor Walter Lewin, September 5, 2013
+included an appeal to students in the very first course component. This initial
+video was followed by a weekly message of encouragement to students. Completion
+rates and certification rates for the course were higher than average, and in a
+course exit survey students indicated that the video messages had a significant
+motivating effect.
 
-Professor Lewin followed this initial appeal with weekly video messages to
-encourage his students. Completion rates and certification rates for the course
-were higher than average, and in a course exit survey students indicated that
-the video messages had a significant motivating effect.
+.. In his video message he addressed students directly, saying, "When you see your first homework assignment, some of you may feel somewhat intimidated. That's normal... However, it would be the wrong thing to stop the course at this point. At least stay in for one month before you make that tragic decision." - Professor Walter Lewin, September 5, 2013
+
 
 ============================================
 Gauging the Effectiveness of Your Investment
