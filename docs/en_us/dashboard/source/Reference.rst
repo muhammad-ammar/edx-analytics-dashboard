@@ -96,7 +96,7 @@ Location Computations
 **Geographic Distribution map**
 
 * User location is determined from the IP address used during interactions with
-  course content.
+  course content. An ISO 3166 country code is associated with each IP address. 
 
 * The last known location of each user, as of the end of the update period
   (Sunday at 23:59:59 UTC), is used.
@@ -105,18 +105,21 @@ Location Computations
   are enrolled in more than one course are identified as being in the same
   location for all of their courses.
 
-* User location is reported by country. Users with IP addresses that are identifed as bein in non-country A country cannot be determined for every IP address. Users who are 
+.. * An "Unassigned" category reflects any users with IP addresses that cannot be geolocated, or that result in a  "non-country" ISO code such as A1, A2, or ZZ.
 
-* The number of users from each country is expressed as a count and as a
-  percentage of the total number of users from all countries.
+* The number of users and the percentage of the total is provided for each
+  country.
 
-* The approaches used for determining user location and user enrollment status
-  are different. As a result, discrepancies can be noted when a direct
-  comparison of enrollment activity to enrollment geography is made.
+* The data and the computational approaches used for determining user location
+  and user enrollment status are different. As a result, discrepancies can be
+  noted when a direct comparison of enrollment activity to enrollment geography
+  is made.
 
 **Total Countries Represented**
 
 The sum of the unique country codes identified from user IP addresses. 
+
+.. This total does not include "non-country" ISO codes such as A1, A2, or ZZ.
 
 **Most Prevalent Country** 
 
@@ -131,10 +134,6 @@ Engagement Computations
 *********************************
 
 
-Active Students Last Week
-
-any event for the user in the course loading a page,show answer, reading dicussion forum, reading static pages, textbooks, 
-
 attempted problem
 
 clicking check on ANY capa problem ** 
@@ -143,13 +142,7 @@ Create a subtask/story for Gabe in REview Documentation story
 
 Watched a video: if they click the play on any video they are counted
 
-**unique users across the date range per metric. Activity even once counts, and only counts once 
-
-
-
-
-
-
+* unique users across the date range per metric. Activity even once counts, and only counts once 
 
 
 
@@ -162,6 +155,9 @@ The number of students who visited a course URL in the
   **Check** for a problem. 
 
   %%% what else? "other course activities" in B&R guide 
+
+  
+any event for the user in the course loading a page, show answer, reading dicussion forum, reading static pages, textbooks, 
 
 **Watched a Video Last Week count** 
   

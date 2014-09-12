@@ -44,9 +44,9 @@ data in these ways:
 
 See the :ref:`Reference` chapter for a detailed description of each value.
 
-*****************************************************
-Practical Magic: Interpreting Geographic Distribution
-*****************************************************
+*********************************************************
+Analytics in Action: Interpreting Geographic Distribution
+*********************************************************
 
 =========================
 Now Open 'til Midnight

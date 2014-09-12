@@ -38,9 +38,9 @@ ways:
 
 See the :ref:`Reference` chapter for a detailed description of each value.
 
-****************************************************
-Practical Magic: Interpreting Changes in Enrollment
-****************************************************
+*******************************************************
+Analytics in Action: Interpreting Changes in Enrollment
+*******************************************************
 
 ===========================
 The Colbert "Bump"

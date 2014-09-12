@@ -36,7 +36,7 @@ student engagement with the content of your course in these ways:
 See the :ref:`Reference` chapter for a detailed description of each value.
 
 ***************************************************************
-Practical Magic: Interpreting Data About Student Engagement 
+Analytics in Action: Interpreting Data About Student Engagement 
 ***************************************************************
 
 Most online courses experience periodic drops in student engagement that can be

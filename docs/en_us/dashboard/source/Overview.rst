@@ -26,9 +26,7 @@ and reports that you access in edX Insights.
 
 * :ref:`Engagement_Content`
 
-.. eventually replace with refs to the lens-level chapters
-
-Each chapter also contains a section for anecdotal "practical magic". These
+Each chapter also contains a section for anecdotal "Analytics in Action". These
 sections showcase how data has revealed information about courses and students,
 and how course teams have reacted to the information.
 
