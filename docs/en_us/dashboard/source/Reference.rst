@@ -30,6 +30,8 @@ All Computations
 * Changes over a one week period are computed for "an ISO week", from the
   period Monday at 00:00:00 UTC through Sunday at 23:59:59 UTC.
 
+.. not true? only enrollment activity? get with Gabe again
+
   Each complete week, from the beginning of the week on Monday to the end of
   the week on Sunday, is an update period for edX Insights.
 
@@ -133,6 +135,7 @@ as well.
 Engagement Computations
 *********************************
 
+%%%%%
 
 attempted problem
 

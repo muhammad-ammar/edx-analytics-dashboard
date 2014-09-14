@@ -6,14 +6,25 @@ Enrollment Activity
 
 How many students are enrolled in my course? Enrollment activity data helps you
 monitor how many people are enrolling in your course and how that number
-changes over time. EdX Insights delivers enrollment activity data in these
-ways:
+changes over time. 
+
+.. note:: Enrollment activity data is updated once each week to include data 
+ collected through Sunday night at 23:59:59 UTC.
+
+********************************************
+Gaining Insight into Course Enrollment
+********************************************
+
+EdX Insights delivers enrollment activity data in these ways:
 
 * Chart: **Enrollment Activity** 
 
   Each marker on this chart represents the total number of enrolled course
   participants on a particular date. To see the total enrollment count for each
-  day, move your cursor over the chart to display a tip.
+  day, move your cursor over the chart to display a tip. The graph includes
+  data for the 60 days leading up to the date of the last data update. For
+  enrollment data for every day, starting with the course creation date, see
+  the **Enrollment Breakdown** report.
 
 * Count: **Current Enrollment**
   
@@ -23,7 +34,7 @@ ways:
 * Delta: **Enrollments This Week** 
   
   This metric reports the difference between the enrollment total at the
-  bwginning of the last one week update period and at the end of the update
+  beginning of the last one week update period and at the end of the update
   period.
 
 * Report: **Enrollment Breakdown** 
@@ -34,9 +45,9 @@ ways:
   To download the Enrollment Breakdown report in a comma-separated value
   file, click **Download CSV**.
 
-.. info on why you might want to download?
+.. info on why you might want to download, what to do with csv after
 
-See the :ref:`Reference` chapter for a detailed description of each value.
+See the :ref:`Reference` for a detailed description of how enrollment values are determined. 
 
 *******************************************************
 Analytics in Action: Interpreting Changes in Enrollment
@@ -66,9 +77,10 @@ Latecomers Welcome
 ===========================
 
 After their course started, a team expected that enrollment would level off and
-then begin a gradual decline. While they did see an overall decrease in
-enrollment, they also noted that even several weeks into the course, occasional
-small spikes in enrollment continued to occur. To give the recently-enrolled
-students time to catch up, the team decided to adjust the course so that is was
-more self-paced: they shifted due dates in unreleased units to be later and
-extended the course end date to keep course content open longer.
+then begin a gradual decline. While they did see a decrease in the number of
+enrollments each week, they also noticed that occasional small spikes in
+enrollment continued to occur on certain days, even several weeks into the
+course. To give these recently-enrolled students time to catch up, the team
+chose to adjust the course to be more self-paced. They shifted due dates in
+unreleased units later, and extended the end date to keep course content open
+longer.

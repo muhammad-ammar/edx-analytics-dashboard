@@ -14,9 +14,6 @@ edX Insights
    preface
    change_log
    Overview
-   Enrollment
-   Enrollment_Activity
-   Enrollment_Geography
-   Engagement
-   Engagement_Content
    Reference
+   enrollment/index
+   engagement/index
