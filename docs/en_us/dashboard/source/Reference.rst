@@ -135,48 +135,40 @@ as well.
 Engagement Computations
 *********************************
 
-%%%%%
+Measures of student engagement with course content identify the number of
+unique users who completed a specified activity during the date range.
 
-attempted problem
+A single instance of an activity counts, and counts only once, in determining
+these values.
 
-clicking check on ANY capa problem ** 
-(Alison - comment each one that Gabe determines to be a capa problem)
-Create a subtask/story for Gabe in REview Documentation story
-
-Watched a video: if they click the play on any video they are counted
-
-* unique users across the date range per metric. Activity even once counts, and only counts once 
-
-
+.. do the statements above about the one week date range for computations hold?
 
 **Active Students Last Week count** 
   
-The number of students who visited a course URL in the
-  course at least once during the last complete update period.
+* The number of unique users who visited any page in the course (a URL) at
+  least once during the last update period.
 
-  , played a video, contributed to a discussion topic, or clicked
-  **Check** for a problem. 
-
-  %%% what else? "other course activities" in B&R guide 
-
-  
-any event for the user in the course loading a page, show answer, reading dicussion forum, reading static pages, textbooks, 
+* This metric includes all course activities.
 
 **Watched a Video Last Week count** 
   
-  The total number of students who played at least one of the course videos.
+* The number of unique users who clicked play for at least one of the course
+  videos. 
+
+* Only videos played on the edX platform video player are included.
 
 **Tried a Problem Last Week count** 
   
-* The total number of students who submitted an answer for at least one problem
+* The number of unique users who submitted an answer for at least one problem
   of these types:
 
-Checkboxes (<choiceresponse>)
-Dropdown (<optionresponse>)
-Multiple choice (<multiplechoiceresponse>)
-Numerical input (<numericalresponse>)
-Text input (<stringresponse>)
-Math expression input (<formularesponse>)
+  * Checkboxes (<choiceresponse>)
+  * Dropdown (<optionresponse>)
+  * Multiple choice (<multiplechoiceresponse>)
+  * Numerical input (<numericalresponse>)
+  * Text input (<stringresponse>)
+  * Math expression input (<formularesponse>)
 
-.. Gabe believes that there may actually be a few more. 
+.. Gabe believes that there may actually be a few more. Subtask created.
+.. TODO: comment in doc for each problem type that Gabe determines to be a capa problem for future reference
 
