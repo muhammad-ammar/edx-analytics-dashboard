@@ -26,10 +26,11 @@ and reports that you access in edX Insights.
 
 * :ref:`Engagement_Content`
 
-Each chapter also contains a section for anecdotal "Analytics in Action". These
-sections showcase how data has revealed information about courses and students,
-and how course teams have reacted to the information.
+Each of these chapters also contains a section for anecdotal "Analytics in
+Action". These sections showcase how data has revealed information about
+courses and students, and how course teams have reacted to the information.
 
-The edX Insights dashboard includes a brief description for each reported value: move your cursor over the "Information" icon. The
+The edX Insights dashboard includes a brief description for each reported
+value: move your cursor over the "information" icon. The
 :ref:`Reference` chapter in this guide dives deeper to provide detailed
 descriptions of how edX computes the reported values.

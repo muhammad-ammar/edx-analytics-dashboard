@@ -4,20 +4,25 @@
 Engagement with Course Content
 #################################
 
-How many of the enrolled students are actually keeping up with the work? What are
-they doing? Content engagement data helps you monitor how many students are
-active in your course and what they are doing. 
+How many of the enrolled students are actually keeping up with the work? What
+are they doing? Content engagement data helps you monitor how many students are
+active in your course and what they are doing.
 
 ********************************************
 Gaining Insight into Student Engagement
 ********************************************
 
-EdX Insights delivers data about
-student engagement with the content of your course in these ways:
+EdX Insights delivers data about student engagement with the content of your
+course in these ways:
 
-* Graph: **TBD**
-  
-  %%?? three lines
+* Chart: **Weekly Student Engagement**
+
+  The markers on this chart represent the number of unique students who
+  interacted with course content. The graph plots three categories of
+  engagement: an overall total for and students who completed any activity, and
+  totals for students who clicked play for any course video and students who
+  submitted an answer for a problem. Each total is for activity completed in a
+  one week period.
 
 * Count: **Active Students Last Week** 
   
@@ -32,11 +37,11 @@ student engagement with the content of your course in these ways:
   
   The total number of students who submitted an answer for at least one problem (for a specified set of problem types).
 
-* Report: **TBD** 
+* Report: **Content Engagement Breakdown** 
 
-.. the downloadable report will have ? a title and some columns for counts
+  The weekly breakdown of student engagement with course content is available for review or download.
 
-  You can download the %% report in comma-separated value format: click
+  You can download the Content Engagement Breakdown report in comma-separated value format: click
   **Download CSV**.
 
 See the :ref:`Reference` chapter for a detailed description of each value.
@@ -100,6 +105,8 @@ students. Although the course has only run once, its completion and
 certification rates were higher than average for the subject. In the course
 exit survey, students indicated that the video messages had a significant
 motivating effect.
+
+.. Melanie checking with MIT to make sure this ^ is ok to use
 
 .. "When you see your first homework assignment, some of you may feel somewhat intimidated. That's normal... However, it would be the wrong thing to stop the course at this point. At least stay in for one month before you make that tragic decision." - Professor Walter Lewin, September 5, 2013
 

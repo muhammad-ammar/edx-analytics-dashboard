@@ -55,16 +55,26 @@ Analytics in Action: Interpreting Geographic Distribution
 Now Open 'til Midnight
 =========================
 
-As their course start date approached, a course team realized that they had
-almost as many students enrolled from India as from their own country, the
-United States. To provide the same experience to students participating across
-time zones, the team adjusted their schedules to spread teh discussion
-moderation coverage over more hours.
+To make their courses more welcoming to a geographically and culturally diverse
+student body, team members for MOOCs have changed their courses in a variety of
+ways.
 
-Another team that saw a similar geographic trend in enrollment before
-their course started added a Hindi translation of the course introduction.
+* A team in the United States realized that they had almost as many students
+  from India enrolled as from their own country. To provide the same experience
+  to students participating across more than a nine-hour time difference, the
+  team adjusted their schedules so that discussion moderation coverage covered
+  more hours in each day.
 
-.. is that right Victor? I think that was your story
+* After he learned the top few countries where students in his Circuits and
+  Electronics course were located, Professor Anant Agarwal made a quick change
+  to some of the homework problems. Instead of using first names that are only
+  common among American and European students in examples, he sprinkled in
+  names that would be familiar to students in India, Colombia, and China.
+
+  Professor Agarwal also realized that it made sense to move a due date that
+  fell on a major festival day in India.
+
+.. * Another team provided a Hindi translation of their course introduction.
 
 =======================================================
 Investing Based on Demonstrated Need, Not Predictions
@@ -84,11 +94,13 @@ alternate video delivery channel.
 Fostering Community
 ============================
 
-When students enroll in a course and click through from the edX dashboard, the
-Course Info page is the first one that they see. One professor included
-enrollment data from previous iterations of his course to welcome students into
-the course community. By showcasing the size and geograhic reach of the course
-in this way, the professor used the "wow" factor of his MOOC to capture
-interest and escalate enthusiasm.
+When students enroll in a course and click through from the edX dashboard, they
+see the Course Info page first. One professor welcomed students into the course
+community by including enrollment data from previous iterations of his course.
+By showcasing the size and geograhic reach of the course in this way, the
+professor used the "wow" factor of his MOOC to capture interest and escalate
+enthusiasm.
+
+.. ^ is there a way to make this stronger?
 
 .. "I'd like to share some important details with you about our community. Since its launch in March 2013, HeroesX has enrolled over 60,000 individuals from over 170 countries, and this third session is growing every day. ...HeroesX is special because it brings together individual participants working independently from all over the world". - Gregory Nagy, September 2, 2014 (hold off on specifically quoting per Michele)
