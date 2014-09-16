@@ -23,9 +23,9 @@ edX Insights are computed. It contains sections for:
 All Computations
 *********************************
 
-* Computations for the different values reported by edX Insights, and by the
-  Instructor Dashboard, take place at different times. As a result, differences
-  can occur.
+Computations for the different values reported by edX Insights, and by the
+Instructor Dashboard, take place at different times. As a result, differences
+can occur.
 
 
 .. _Enrollment Computations:
@@ -96,8 +96,7 @@ Location Computations
 * Computations are made on data collected through Sunday at 23:59 UTC (11:59
   pm).
 
-* Changes over a one week period are computed for "an ISO week", from the
-  period Monday at 00:00:00 UTC through Sunday at 23:59:59 UTC.
+.. * Changes over a one week period are computed for "an ISO week", from the period Monday at 00:00:00 UTC through Sunday at 23:59:59 UTC.
 
 * User location is determined from the IP address used during interactions with
   course content. An ISO 3166 country code is associated with each IP address. 
@@ -154,8 +153,10 @@ Engagement Computations
 * Measures of student engagement with course content identify the number of
   unique users who completed a specified activity during a week.
 
-* A single instance of an activity counts, and counts only once, in determining
-  these values.
+* Students are included in the count for every activity that they completed
+  during the week. Students who completed a specific activity during the week,
+  such as watching a video, are also included in the overall count of active
+  students.
 
 For information about viewing engagement metrics in edX Insights, see
 :ref:`Engagement_Content`.
