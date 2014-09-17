@@ -34,3 +34,5 @@ The edX Insights dashboard includes a brief description for each reported
 value: move your cursor over the "information" icon. The
 :ref:`Reference` chapter in this guide dives deeper to provide detailed
 descriptions of how edX computes the reported values.
+
+.. @Mark H, how to collect and perhaps even solicit more "Analytics in Action" stories? dedicated email? dirrect to the feedback link in the product?

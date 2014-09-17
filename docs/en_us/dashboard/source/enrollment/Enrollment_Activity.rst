@@ -19,12 +19,14 @@ EdX Insights delivers enrollment activity data in these ways:
 
 * Chart: **Enrollment Activity** 
 
-  Each marker on this chart represents the total number of enrolled course
-  participants on a particular date. To see the total enrollment count for each
-  day, move your cursor over the chart to display a tip. The graph includes
-  data for the 60 days leading up to the date of the last data update. For
-  enrollment data for every day, starting with the course creation date, see
-  the **Enrollment Breakdown** report.
+  Each marker on this chart represents the total number of enrolled learners on
+  a particular date. To see the total enrollment count for each day, move your
+  cursor over the chart to display a tip.
+
+  The graph includes enrollment data for every day, beginning with the
+  automated enrollment of the course creator on its creation date. This data is
+  also available for review in tabular format and can be downloaded. See the
+  **Enrollment Breakdown** report.
 
 * Count: **Current Enrollment**
   

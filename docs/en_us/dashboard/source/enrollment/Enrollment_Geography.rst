@@ -25,18 +25,18 @@ EdX Insights delivers data about student location in these ways:
   This metric reports the number of countries in which one or more 
   students are located.
 
-* Percentage: **Most Prevalent Country** 
+* Percentage: **Top Country** 
   
   This statistic indicates the country with the highest percentage of students.
 
-* Percentage: **2nd Most Prevalent Country** 
+* Percentage: **Second Country** 
 
   This statistic indicates the country with the second highest percentage of
   students.
 
-* Percentage: **3rd Most Prevalent Country** 
+* Percentage: **Third Country** 
 
-  This statistic indicates the coutnry with the highest percentage of students.
+  This statistic indicates the country with the highest percentage of students.
 
 * Report: **Country Enrollment Breakdown** 
 
@@ -51,9 +51,9 @@ See the :ref:`Reference` for a detailed description of how location values are d
 Analytics in Action: Interpreting Geographic Distribution
 *********************************************************
 
-=========================
-Now Open 'til Midnight
-=========================
+=============================
+Teaching with a Global Reach
+=============================
 
 To make their courses more welcoming to a geographically and culturally diverse
 student body, team members for MOOCs have changed their courses in a variety of
@@ -71,8 +71,9 @@ ways.
   common among American and European students in examples, he sprinkled in
   names that would be familiar to students in India, Colombia, and China.
 
-  Professor Agarwal also realized that it made sense to move a due date that
-  fell on a major festival day in India.
+  Professor Agarwal also checked the scheduled due dates for the course
+  assignments, and found that it made sense to change a due date that fell on
+  a major festival day in India.
 
 .. * Another team provided a Hindi translation of their course introduction.
 
@@ -82,7 +83,7 @@ Investing Based on Demonstrated Need, Not Predictions
 
 Delivering content, especially videos, to students in every country in the
 world means meeting differing technological requirements. Instead of working to
-make every video available to a global audience before teh course started, one
+make every video available to a global audience before the course started, one
 team took more of a wait-and-see approach. In the months leading up to the
 course start date, the team tracked the number of students who, based on
 location, could only access videos if they were hosted on a third-party site.

@@ -23,10 +23,17 @@ edX Insights are computed. It contains sections for:
 All Computations
 *********************************
 
-Computations for the different values reported by edX Insights, and by the
-Instructor Dashboard, take place at different times. As a result, differences
-can occur.
+* Computations for the different values reported by edX Insights, and by the
+  Instructor Dashboard, take place at different times. As a result, differences
+  can occur.
 
+* All users who are enrolled in a course are included in the computations.
+  This means that in addition to students, all staff members and beta testers
+  with privileged roles in the course are included.
+
+* A user who registers an account and enrolls in a course, but does not
+  activate the user accounts, is included in all computations as of the date
+  and time of enrollment.
 
 .. _Enrollment Computations:
 
@@ -34,7 +41,8 @@ can occur.
 Enrollment Computations
 *********************************
 
-The number of enrolled students is computed every day, and the values reported on the Enrollment Activity page in edX Insights are updated every day.
+The number of enrolled students is computed every day, and the values reported
+on the Enrollment Activity page in edX Insights are updated every day.
 
 .. important:: EdX changed the method used to track student enrollments on 
  3 December 2013. As a result, enrollment activity data is not computed for
@@ -46,14 +54,8 @@ For information about viewing enrollment activity data in edX Insights, see
 
 **Enrollment count**
 
-* All users who are enrolled in the course are included. This means that in
-  addition to students, all staff members and beta testers with privileged
-  roles in the course are included.
-
 * Users are included in the count as of the date and time they enroll in a
   course.
-
-* Users who do not activate their accounts at registration are included. 
 
 * Users who unenroll are excluded from the count as of the date and time they
   unenroll.
@@ -71,9 +73,9 @@ For information about viewing enrollment activity data in edX Insights, see
    enrolled in the course and included in the count as of the date and time the
    initiating staff member clicks **Enroll**.
 
-   Students who register a user account with one of the supplied email
-   addresses or usernames after batch enrollment is initiated are included as
-   of the date and time that they register their user accounts.
+   Students who are autoenrolled in a course but have not yet registered a user
+   account are included as of the date and time that they do register their
+   user accounts.
 
 **Enrollment Activity graph**
   
@@ -90,13 +92,7 @@ For information about viewing enrollment activity data in edX Insights, see
 Location Computations
 *********************************
 
-* The geographic locations of students are updated once a week, typically on
-  Mondays.
-
-* Computations are made on data collected through Sunday at 23:59 UTC (11:59
-  pm).
-
-.. * Changes over a one week period are computed for "an ISO week", from the period Monday at 00:00:00 UTC through Sunday at 23:59:59 UTC.
+* The geographic locations of students are updated every day.
 
 * User location is determined from the IP address used during interactions with
   course content. An ISO 3166 country code is associated with each IP address. 
@@ -116,7 +112,9 @@ For information about viewing geographic data in edX Insights, see
 * The number of users and the percentage of the total is provided for each
   country.
 
-.. * Users with IP addresses that cannot be geolocated, or that result in a "non-country" code such as A1 (Anonymous Proxy), A2 (Satellite Provider), or  O1 (Other Country), are reported in an "Unassigned" category.
+* Users with IP addresses that cannot be geolocated, or that result in a "non-
+  country" code such as A1 (Anonymous Proxy), A2 (Satellite Provider), or O1
+  (Other Country), are reported in the "Unknown" category.
 
 * The computational approaches and frequency used in determining user
   location and user enrollment status are different. As a result, discrepancies
@@ -125,14 +123,14 @@ For information about viewing geographic data in edX Insights, see
 
 **Total Countries Represented**
 
-The sum of the unique country codes identified from user IP addresses. 
+* The sum of the unique country codes identified from user IP addresses. 
 
-.. This total does not include "non-country" ISO codes such as A1, A2, or O1.
+* This total does not include "non-country" ISO codes such as A1, A2, or O1.
 
 **Top Country** 
 
 The country in which the largest number of users is located. The countries in
-which the second and third largest number of users are located are identified
+which the second and third largest numbers of users are located are identified
 as well.
 
 .. _Engagement Computations:
@@ -151,7 +149,7 @@ Engagement Computations
   period Monday at 00:00:00 UTC through Sunday at 23:59:59 UTC.
 
 * Measures of student engagement with course content identify the number of
-  unique users who completed a specified activity during a week.
+  unique users who completed an activity during a week.
 
 * Students are included in the count for every activity that they completed
   during the week. Students who completed a specific activity during the week,
@@ -166,8 +164,13 @@ For information about viewing engagement metrics in edX Insights, see
 * The number of unique users who visited any page in the course (a URL) at
   least once during the last update period.
 
+  Some examples of the activities that a student can complete on a page, and
+  that are included in this count, include contributing to a discussion topic,
+  reading a textbook, submitting an answer to any type of problem, playing a
+  video, and reviewing the course updates.
+
 * This metric includes all course activities, excluding enrollment and
-  unenrollment.
+  unenrollment.  
 
 **Watched a Video Last Week count** 
   

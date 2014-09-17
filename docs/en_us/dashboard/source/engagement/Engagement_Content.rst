@@ -22,27 +22,38 @@ course in these ways:
   engagement: an overall total for and students who completed any activity, and
   totals for students who clicked play for any course video and students who
   submitted an answer for a problem. Each total is for activity completed in a
-  one week period.
+  one week period. To see the total count for each activity type for a given
+  week, move your cursor over the chart to display a tip.
+
+  Activity is included beginning with the week in which the first page visit
+  took place. The first page visit is typically by a member of the course staff
+  shortly after course creation.  This data is also available for review in
+  tabular format and can be downloaded. See the **Content Engagement
+  Breakdown** report.
 
 * Count: **Active Students Last Week** 
   
   The total number of students who, at least once, visited a page in the
-  course. 
+  course during the last complete one week period. 
 
 * Count: **Watched a Video Last Week** 
   
-  The total number of students who played at least one of the course videos.
+  The total number of students who played at least one of the course videos
+  during the last complete one week period.
 
 * Count: **Tried a Problem Last Week** 
   
-  The total number of students who submitted an answer for at least one problem (for a specified set of problem types).
+  The total number of students who submitted an answer for at least one problem
+  during the last complete one week period (for a specified set of problem
+  types).
 
 * Report: **Content Engagement Breakdown** 
 
-  The weekly breakdown of student engagement with course content is available for review or download.
+  The weekly breakdown of student engagement with course content is available
+  for review or download.
 
-  You can download the Content Engagement Breakdown report in comma-separated value format: click
-  **Download CSV**.
+  You can download the Content Engagement Breakdown report in comma-separated
+  value format: click **Download CSV**.
 
 See the :ref:`Reference` chapter for a detailed description of each value.
 
