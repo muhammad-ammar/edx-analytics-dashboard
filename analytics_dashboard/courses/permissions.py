@@ -1,3 +1,4 @@
+
 import datetime
 import logging
 from django.conf import settings
@@ -71,8 +72,11 @@ def refresh_user_course_permissions(user):
         raise InvalidAccessTokenError
 
     try:
-        permissions = backend.get_user_permissions(access_token)
-        courses = permissions.get('courses')
+        claims = settings.COURSE_PERMISSIONS_CLAIMS
+        data = backend.get_user_claims(access_token, claims)
+        courses = set()
+        for claim in claims:
+            courses.update(data.get(claim, []))
     except Exception as e:
         raise PermissionsRetrievalFailedError(e)
 
@@ -81,6 +85,8 @@ def refresh_user_course_permissions(user):
     if not courses:
         logger.warning('Authorization server did not return course permissions. Defaulting to no course access.')
         courses = []
+    else:
+        courses = sorted(courses)
 
     set_user_course_permissions(user, courses)
 
@@ -101,6 +107,7 @@ def get_user_course_permissions(user):
     # Check the cache for data
     values = cache.get_many(keys)
     courses = values.get(key_courses, [])
+    logger.error('getting cache {} {}'.format(user, len(courses)))
 
     # If data is not in the cache, refresh the permissions and validate against the new data.
     if not values.get(key_last_updated):
