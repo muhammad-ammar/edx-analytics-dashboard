@@ -3,7 +3,7 @@
    contain the root `toctree` directive.
 
 
-edX Insights
+Using edX Insights
 ========================================
 
 .. toctree::

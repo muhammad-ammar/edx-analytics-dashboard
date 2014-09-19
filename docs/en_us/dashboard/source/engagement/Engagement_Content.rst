@@ -61,7 +61,7 @@ See the :ref:`Reference` chapter for a detailed description of each value.
 Analytics in Action: Interpreting Data About Student Engagement 
 ***************************************************************
 
-Most online courses experience periodic drops in student activity that can be
+Many online courses experience periodic drops in student activity that can be
 closely correlated to specific events: problem due dates. Teams can forecast
 these changes in engagement, implement strategies to mitigate them, and use 
 weekly activity counts to monitor their reach.
@@ -69,36 +69,6 @@ weekly activity counts to monitor their reach.
 .. Instead of comparing weekly student engagement counts to the total course enrollment, many teams define a new baseline for assessing student engagement after the first assignment is due.
 
 .. not sure where to put this ^ 
-
-==================================================
-Measuring the Effectiveness of Bulk Email
-==================================================
-
-The first time that Professor Ana Bell ran 6.00.1x for MITx, she noticed that
-students had a real pain point around homework deadlines. Although reminders
-were posted in three different parts of the course content, students just
-didn't convert the published due date and time from UTC to their local time
-zones. After the first assignment due date for the Fall 2013 run, Professor
-Bell fielded almost 80 individual discussion posts from students who had
-experienced some time zone confusion.
-
-For the Spring 2014 run of the course, Professor Bell decided to use the bulk
-email feature on the Instructor Dashboard to send reminders to her students.
-She sent a message a few hours before every course deadline, and even included
-a link to a UTC conversion website. After the first assignment, she noticed a
-significant decrease in the number of discussion posts relating to
-misunderstood deadlines, down to about 20.
-
-Beyond the approximate data that she got from comparing discussion posts,
-Professor Bell also compared the completion rates for the two runs. From a
-completion rate of about 6% for the Fall 2013 run of 6.00.1x, the completion
-rate went up to 7% in Spring 2014. While other variables may have contributed
-to this increase, Professor Bell believes that the "ongoing heartbeat” of her
-weekly messages acted not only to solve the specific problem of missed
-deadlines, but also as a more general motivator, getting students to keep
-visiting the course and looking at the material.
-
-.. Introduction to Computer Science and Programming Using Python
 
 ==================================================
 An Immediate Appeal, then Ongoing Encouragement

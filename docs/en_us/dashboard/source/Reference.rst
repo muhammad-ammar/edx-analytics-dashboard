@@ -23,9 +23,12 @@ edX Insights are computed. It contains sections for:
 All Computations
 *********************************
 
-* Computations for the different values reported by edX Insights, and by the
-  Instructor Dashboard, take place at different times. As a result, differences
-  can occur.
+* Computations for the different metrics reported by edX Insights take place at
+  different times. In addition, computations for reports and metrics that are
+  available from the Instructor Dashboard of a course, take place on a
+  different schedule. As a result, differences can occur.
+
+.. Jennifer asks for an x-ref to more information. Pending some work with Victor to figure out the update schedule for Insights.
 
 * All users who are enrolled in a course are included in the computations.
   This means that in addition to students, all staff members and beta testers
@@ -145,16 +148,16 @@ Engagement Computations
 * Computations are made on data collected through Sunday at 23:59 UTC (11:59
   pm).
 
-* Changes over a one week period are computed for "an ISO week", from the
-  period Monday at 00:00:00 UTC through Sunday at 23:59:59 UTC.
+* Changes over a one week period are computed for the period Monday at 00:00:00
+  UTC through Sunday at 23:59:59 UTC.
 
 * Measures of student engagement with course content identify the number of
   unique users who completed an activity during a week.
 
-* Students are included in the count for every activity that they completed
-  during the week. Students who completed a specific activity during the week,
-  such as watching a video, are also included in the overall count of active
-  students.
+* Each unique user who engages in one of the categories of activity increases
+  the count for that category by 1. A student who completes 10 problems
+  increases the count of students who tried a problem by 1. The same student
+  also increases the overall count of active students by 1.
 
 For information about viewing engagement metrics in edX Insights, see
 :ref:`Engagement_Content`.
