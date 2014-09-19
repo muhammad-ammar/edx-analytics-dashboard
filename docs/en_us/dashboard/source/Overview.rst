@@ -53,7 +53,7 @@ This example (and all of the Analytics in Action anecdotes featured in this earl
 acted upon before the release of edX Insights.
 
 You are invited to share your experiences using edX Insights with members of
-other course teams. Contact the edX documentation team.
+other course teams. Contact the edX documentation team at `docs@edx.org`_.
 
 .. @Mark H, I would like to include this invitation. How can we collect more "Analytics in Action" stories? dedicated email address? direct to the feedback link in the product?
 
@@ -90,3 +90,4 @@ visiting the course and looking at the material.
 
 
 .. _edX Research Guide: http://edx.readthedocs.org/projects/devdata/en/latest/
+.. _docs@edx.org: docs@edx.org
