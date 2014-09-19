@@ -34,9 +34,10 @@ All Computations
   This means that in addition to students, all staff members and beta testers
   with privileged roles in the course are included.
 
-* A user who registers an account and enrolls in a course, but does not
-  activate the user accounts, is included in all computations as of the date
-  and time of enrollment.
+* Metrics for enrollment and engagement do not rely on account activation. A
+  user who registers an account and enrolls in a course, but does not activate
+  the user account, is included in all computations as of the date and time of
+  enrollment.
 
 .. _Enrollment Computations:
 
@@ -197,13 +198,17 @@ For information about viewing engagement metrics in edX Insights, see
 .. Gabe believes that there may actually be a few more. Subtask created.
 .. TODO: when comlete list received, comment in doc for each problem type that Gabe determines to be a capa problem for future reference
 
-.. **Enrollment Activity graph**
+**Weekly Student Engagement graph**
   
-.. * The markers on the graph represent the number of users who interacted with different aspects of the course each week.
+* The markers on the graph represent the number of users who interacted with
+  different aspects of the course each week.
 
-.. * The x-axis includes computations made from course creation through the end of the last update period.
+* The x-axis includes computations made from course creation through the end of
+  the last update period.
 
-.. * The y-axis shows the total number of unique users.
+* Computations are updated weekly.
+
+* The y-axis shows the total number of unique users.
 
 .. _Error Conditions:
 

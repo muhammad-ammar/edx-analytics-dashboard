@@ -12,6 +12,7 @@ Using edX Insights
 
    read_me
    preface
+   browsers
    change_log
    Overview
    Reference
