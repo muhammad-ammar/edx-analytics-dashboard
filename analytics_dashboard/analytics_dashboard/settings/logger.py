@@ -35,14 +35,13 @@ def get_logger_config(log_dir='/var/tmp',
                      "[%(name)s][env:{logging_env}] %(levelname)s "
                      "[{hostname}  %(process)d] [%(filename)s:%(lineno)d] "
                      "- %(message)s").format(
-                        service_variant=service_variant,
-                        logging_env=logging_env, hostname=hostname)
+                         service_variant=service_variant,
+                         logging_env=logging_env, hostname=hostname)
 
     if debug:
         handlers = ['console']
     else:
         handlers = ['local']
-
 
     logger_config = {
         'version': 1,
@@ -61,6 +60,13 @@ def get_logger_config(log_dir='/var/tmp',
                 'class': 'logging.StreamHandler',
                 'formatter': 'standard',
                 'stream': sys.stdout,
+            },
+            'local': {
+                'level': local_loglevel,
+                'class': 'logging.handlers.SysLogHandler',
+                'address': '/dev/log',
+                'formatter': 'syslog_format',
+                'facility': SysLogHandler.LOG_LOCAL0,
             },
         },
         'loggers': {
