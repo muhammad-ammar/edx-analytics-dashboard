@@ -13,6 +13,8 @@ improve your course and the experience of your learners.
 
 .. ...data about student activity, background, and performance throughout the course. 
 
+.. be sure to cast this as firstly a tool to provide the "how are my students doing" info that teams want when performance gets added (Mark Rudnick comment)
+
 Putting the data provided by edX Insights to work involves:
 
 * Understanding the context of your course and what changes over time.

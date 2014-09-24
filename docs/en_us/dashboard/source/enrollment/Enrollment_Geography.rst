@@ -7,45 +7,95 @@ Enrollment Geography
 Where are my students from? For a MOOC, enrollment geography data helps you
 understand the global reach of your course. 
 
+Enrollment geography data is updated every day to include changes in location
+through the end of the previous day (23:59 UTC).
+
 ********************************************
 Gaining Insight into Student Location
 ********************************************
 
-EdX Insights delivers data about student location in these ways:
+EdX Insights delivers data about student location in a map, a set of metrics,
+and a report that you can view or download. Descriptions follow; for detailed
+information about the computations, see :ref:`Reference`.
 
-* Map: **Geographic Distribution** 
+======================================
+Geographic Distribution Map
+======================================
 
-  The map uses a color scale to indicate the percentage of total enrollment
-  represented by students from each country. The darker the shade, the higher
-  the enrollment percentage. You can view the enrollment total for each
-  country: move your mouse over the map.
+The map uses a color scale to indicate the percentage of total enrollment
+represented by students from each country. The darker the shade, the higher the
+enrollment percentage. You can view the enrollment total for each country: move
+your mouse over the map.
 
-* Count: **Total Countries Represented**
+.. The number of students whose location could not be determined is shown somewhere.
+
+In this example, the country with the highest number of enrolled students is
+the United States. The cursor is pointing to Brazil, and the tool tip shows
+the percentage of students enrolled from that country.
+
+.. image:: ../images/geography_chart.png
+ :alt: The Geographic Distribution map with the tip for the country of Brazil
+       shown.
+
+======================================
+Total Countries Represented Metric
+======================================
   
-  This metric reports the number of countries in which one or more 
-  students are located.
+This metric reports the number of countries in which one or more students are
+located.
 
-* Percentage: **Top Country** 
+======================================
+Top Country by Enrollment Percentage
+======================================
   
-  This statistic indicates the country with the highest percentage of students.
+This statistic reports the country with the highest percentage of students.
 
-* Percentage: **Second Country** 
+======================================
+Second Country by Enrollment Percentage
+======================================
 
-  This statistic indicates the country with the second highest percentage of
-  students.
+This statistic reports the country with the second highest percentage of
+students.
 
-* Percentage: **Third Country** 
+======================================
+Third Country by Enrollment Percentage
+======================================
 
-  This statistic indicates the country with the highest percentage of students.
+This statistic reports the country with the third highest percentage of
+students.
 
-* Report: **Country Enrollment Breakdown** 
+======================================
+Geographic Breakdown Report
+======================================
 
 .. the downloadable report will have country/total/percentage 
 
-  To download the Country Enrollment Breakdown report in a comma-separated
-  value file, click **Download CSV**.
+To download the Country Enrollment Breakdown report in a comma-separated value file, click **Download CSV**.
 
-See the :ref:`Reference` for a detailed description of how location values are determined.
+Columns show each **Country** and its **Percentage** and **Total Enrollment**.
+
+To download the Enrollment Over Time report in a comma-separated value file,
+click **Download CSV**. The CSV file contains the following columns: 
+
+* count
+* country.alpha2 (two-character ISO 3166 country code)
+* country.alpha3 (three-character ISO 3166 country code)
+* country.name
+* course_id
+* created (shows the date and time of the computation)
+* date
+
+.. note:: The CSV file is UTF-8 encoded, but not all spreadsheet applications 
+ interpret and render UTF-8 encoded characters correctly. For example, a French
+ country name that includes accented characters displays differently in
+ Microsoft Excel for Mac than in OpenOffice Calc. If you notice characters that
+ do not display as expected, try a spreadsheet application such as LibreOffice,
+ OpenOffice Calc, or Apache OpenOffice to open the CSV file.
+
+See the :ref:`Reference` for a detailed description of how location values are
+determined.
+
+.. info on why you might want to download, what to do with csv after
 
 *********************************************************
 Analytics in Action: Interpreting Geographic Distribution

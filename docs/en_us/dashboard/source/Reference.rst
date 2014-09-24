@@ -30,9 +30,9 @@ All Computations
 
 .. Jennifer asks for an x-ref to more information. Pending some work with Victor to figure out the update schedule for Insights.
 
-* All users who are enrolled in a course are included in the computations.
-  This means that in addition to students, all staff members and beta testers
-  with privileged roles in the course are included.
+* All users who are enrolled in a course are included in the computations for
+  that course. This means that in addition to students, all staff members and
+  beta testers with privileged roles in the course are included.
 
 * Metrics for enrollment and engagement do not rely on account activation. A
   user who registers an account and enrolls in a course, but does not activate
@@ -50,13 +50,13 @@ on the Enrollment Activity page in edX Insights are updated every day.
 
 .. important:: EdX changed the method used to track student enrollments on 
  3 December 2013. As a result, enrollment activity data is not computed for
- courses created in Studio prior to 4 December 2013. However, geographic data
+ courses created in Studio prior to December 4, 2013. However, geographic data
  relating to enrollment is available for those courses.
 
 For information about viewing enrollment activity data in edX Insights, see
 :ref:`Enrollment_Activity`.
 
-**Enrollment count**
+**Enrollment metric**
 
 * Users are included in the count as of the date and time they enroll in a
   course.
@@ -81,7 +81,7 @@ For information about viewing enrollment activity data in edX Insights, see
    account are included as of the date and time that they do register their
    user accounts.
 
-**Enrollment Activity graph**
+**Enrollment Over Time graph**
   
 * The markers on the graph represent the number of users enrolled in the
   course each day.
@@ -125,13 +125,13 @@ For information about viewing geographic data in edX Insights, see
   can be noted when a direct comparison of enrollment activity to enrollment
   geography is made.
 
-**Total Countries Represented**
+**Total Countries Represented metric**
 
 * The sum of the unique country codes identified from user IP addresses. 
 
 * This total does not include "non-country" ISO codes such as A1, A2, or O1.
 
-**Top Country** 
+**Top Country by Enrollment metric** 
 
 The country in which the largest number of users is located. The countries in
 which the second and third largest numbers of users are located are identified
@@ -163,7 +163,7 @@ Engagement Computations
 For information about viewing engagement metrics in edX Insights, see
 :ref:`Engagement_Content`.
 
-**Active Students Last Week count** 
+**Active Students Last Week metric** 
   
 * The number of unique users who visited any page in the course (a URL) at
   least once during the last update period.
@@ -176,14 +176,14 @@ For information about viewing engagement metrics in edX Insights, see
 * This metric includes all course activities, excluding enrollment and
   unenrollment.  
 
-**Watched a Video Last Week count** 
+**Watched a Video Last Week metric** 
   
 * The number of unique users who clicked play for at least one of the course
   videos. 
 
 * Only videos played on the edX platform video player are included.
 
-**Tried a Problem Last Week count** 
+**Tried a Problem Last Week metric** 
   
 * The number of unique users who submitted an answer for at least one problem
   of these types:
@@ -196,7 +196,7 @@ For information about viewing engagement metrics in edX Insights, see
   * Math expression input (<formularesponse>)
 
 .. Gabe believes that there may actually be a few more. Subtask created.
-.. TODO: when comlete list received, comment in doc for each problem type that Gabe determines to be a capa problem for future reference
+.. TODO: when complete list received, comment in doc for each problem type that Gabe determines to be a capa problem for future reference
 
 **Weekly Student Engagement graph**
   
@@ -218,8 +218,9 @@ Error Conditions
 
 The data that edX collects from student interactions has expanded over time to
 capture increasingly specific information, and continues to expand as we add
-new features to the platform. As a result, data for every value reported by edX
-Insights is not available for every course.
+new features to the platform. As a result, more data is available for more
+recently-run courses and not all data for every value reported by edX Insights
+is available for every course.
 
 EdX changed the method used to track student enrollments on 3 December 2013. As
 a result, enrollment activity data is not computed for courses created in
