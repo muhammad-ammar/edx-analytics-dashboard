@@ -65,15 +65,17 @@ ways.
   team adjusted their schedules so that discussion moderation coverage covered
   more hours in each day.
 
-* After he learned the top few countries where students in his Circuits and
-  Electronics course were located, Professor Anant Agarwal made a quick change
-  to some of the homework problems. Instead of using first names that are only
-  common among American and European students in examples, he sprinkled in
-  names that would be familiar to students in India, Colombia, and China.
+* After he learned the top few countries where students in his course were
+  located, one professor made a quick change to some of the homework problems.
+  Instead of using first names that are only common among American and European
+  students in examples, he sprinkled in names that would be familiar to
+  students in India, Colombia, and China.
 
-  Professor Agarwal also checked the scheduled due dates for the course
+  The same professor also checked the scheduled due dates for the course
   assignments, and found that it made sense to change a due date that fell on
   a major festival day in India.
+
+.. Same story, pre-anonymized: * After he learned the top few countries where students in his Circuits and Electronics course were located, Professor Anant Agarwal made a quick change to some of the homework problems. Instead of using first names that are only common among American and European students in examples, he sprinkled in names that would be familiar to students in India, Colombia, and China. Professor Agarwal also checked the scheduled due dates for the course assignments, and found that it made sense to change a due date that fell on a major festival day in India.
 
 .. * Another team provided a Hindi translation of their course introduction.
 
