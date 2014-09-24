@@ -54,6 +54,12 @@ Documentation for course teams is available on the docs.edx.org web page.
   When you are working in edX Studio, you can access relevant sections of this
   guide by clicking **Help** on any page.
 
+* `Using edX Insights`_ describes the metrics, visualizations, and downloadable
+  .csv files that course teams can use to gain information about student
+  background and activity.
+
+.. about student background, activity, and progress.
+
 * `edX Course Staff Release Notes`_ summarize the changes in each new version
   of the edX Studio and LMS software.
 
@@ -232,6 +238,7 @@ edX Global Community meetup_ group.
 
 
 .. _Building and Running an edX Course: http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
+.. _Using edX Insights: http://edx.readthedocs.org/projects/edx-insights/en/latest/
 .. _edX Course Staff Release Notes: http://edx.readthedocs.org/projects/edx-release-notes/en/latest/
 .. _Creating a Peer Assessment: http://edx.readthedocs.org/projects/edx-open-response-assessments/en/latest/
 .. _edX Research Guide: http://edx.readthedocs.org/projects/devdata/en/latest/

@@ -12,6 +12,6 @@ September, 2014
 
    * - Date
      - Change
-   * - 09/18/14
+   * - 09/30/14
      - Initial release.
 

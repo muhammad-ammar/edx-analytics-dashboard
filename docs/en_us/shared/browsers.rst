@@ -80,3 +80,36 @@ The following table shows operating system and browser support for edX Studio, w
      - Yes
      - N/A
      - N/A
+
+***********************************
+edX Insights
+***********************************
+
+The following table shows operating system and browser support for edX
+Insights, which staff use to review and download data about their courses.
+
+.. list-table::
+   :widths: 20 10 10 10 10 10 10
+   :header-rows: 1
+
+   * -
+     - Chrome
+     - Safari
+     - Firefox
+     - IE 9
+     - IE 10
+     - IE 11
+   * - Windows
+     - Windows 7
+     - N/A
+     - Windows 7
+     - Provisional
+     - Provisional
+     - Windows 8
+   * - Mac OSX 10.8 or 10.9
+     - Yes
+     - Yes
+     - Yes
+     - N/A
+     - N/A
+     - N/A
